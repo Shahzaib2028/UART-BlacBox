@@ -28,7 +28,10 @@ If you see the above then...
 
 ### It worked!
 
-You are ready to go. Next step is to go inside the `docs/` folder where you will find the labs to perform.
+Now for create the GTKWave VCD write the following command and run:
+```sh
+testOnly UART.UART_CORE_TEST -- -DwriteVcd=1
+```
 
-### For quick debugging
-If you quickly want to see what verilog is being generated, go to this link  https://bit.ly/3u3zr0e and write Chisel here.
+
+it will create VCD.
