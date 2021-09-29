@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.UART_CORE_TEST -- -DwriteVcd=1, Some(3357e31a-5688-4191-9db3-90edb9618573), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/UART_CORE.scala:46:13: value clk_i is not a member of UART.uartcoreIO[0m
+[0m[[0m[31merror[0m] [0m[0m  u_core.io.clk_i := ~clk[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Sep 28, 2021 4:10:47 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

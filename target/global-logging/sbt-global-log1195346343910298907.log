@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.adder_Test, Some(74553e21-4f5a-4afe-9cf7-cd3d6108d030), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32madder_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Adder blackbox *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.AssertionError: assertion failed: verilator command failed on circuit adder in work dir test_run_dir/Adder_blackbox[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.assert(Predef.scala:223)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.assert$.apply(Assert.scala:70)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorExecutive$.start(VerilatorExecutive.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.defaults.package$.createDefaultTester(defaults.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester$TestBuilder.apply(ChiselScalatestTester.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at UART.adder_Test.$anonfun$new$1(adder_Test.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 7 seconds, 83 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	UART.adder_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 8 s, completed Sep 13, 2021 11:13:46 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

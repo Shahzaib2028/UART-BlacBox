@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.UART_TEST -- -DwriteVcd=1, Some(63a141df-0ce9-41ae-855c-763507909cde), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUART_TEST:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- bufferedTX *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chiseltest.UnpokeableException: Can only poke inputs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableData.pokeBits(package.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableData.poke(package.scala:99)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at UART.UART_TEST.$anonfun$new$3(UART_TEST.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at UART.UART_TEST.$anonfun$new$3$adapted(UART_TEST.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorBackend.$anonfun$run$1(VerilatorBackend.scala:192)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:507)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorBackend.doTimescope(VerilatorBackend.scala:149)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:507)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.Thread.run(Thread.java:748)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 20 seconds, 529 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	UART.UART_TEST[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 38 s, completed May 20, 2021 2:36:19 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

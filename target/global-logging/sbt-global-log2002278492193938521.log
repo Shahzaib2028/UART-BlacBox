@@ -1,0 +1,174 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.UartLoopbackTests, Some(c11e3570-4504-43c8-ae8c-ff8d2f387690), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:200:5: not found: value chiselMainTest[0m
+[0m[[0m[31merror[0m] [0m[0m    chiselMainTest(args, () => Module(new UartLoopback)) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:221:52: not found: type Tester[0m
+[0m[[0m[31merror[0m] [0m[0m  class UartLoopbackTests(c: UartLoopback) extends Tester(c, isTrace = false) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:203:5: not found: value chiselMainTest[0m
+[0m[[0m[31merror[0m] [0m[0m    chiselMainTest(args, () => Module(new UartBufferedLoopback)) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:261:68: not found: type Tester[0m
+[0m[[0m[31merror[0m] [0m[0m  class UartBufferedLoopbackTests(c: UartBufferedLoopback) extends Tester(c, isTrace = false) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:206:5: not found: value chiselMainTest[0m
+[0m[[0m[31merror[0m] [0m[0m    chiselMainTest(args, () => Module(new DummyUart(Array(0xba, 0xad, 0xf0, 0x0d)))) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:309:46: not found: type Tester[0m
+[0m[[0m[31merror[0m] [0m[0m  class DummyUartTests(c: DummyUart) extends Tester(c, isTrace = false) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:221:59: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mNote that 'isTrace' is not a parameter name of the invoked method.[0m
+[0m[[0m[31merror[0m] [0m[0m  class UartLoopbackTests(c: UartLoopback) extends Tester(c, isTrace = false) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:222:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.deq.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:224:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(10)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:227:14: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m      while (peek(c.io.enq.ready) == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:228:9: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m        step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:230:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.enq.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:231:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.enq.bits, value.toInt)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:233:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:235:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.enq.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:237:14: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m      while (peek(c.io.deq.valid) == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:238:9: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m        step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:240:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.deq.ready, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:241:7: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m      expect(c.io.deq.bits, value.toInt)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:243:58: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m      println("expect: " + value.toInt + ", and got: " + peek(c.io.deq.bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:245:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:247:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.deq.ready, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:261:75: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mNote that 'isTrace' is not a parameter name of the invoked method.[0m
+[0m[[0m[31merror[0m] [0m[0m  class UartBufferedLoopbackTests(c: UartBufferedLoopback) extends Tester(c, isTrace = false) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:263:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.enq.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:264:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.deq.ready, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:266:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:270:16: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m        while (peek(c.io.enq.ready) == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:271:11: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m          step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:274:9: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m        poke(c.io.enq.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:275:9: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m        poke(c.io.enq.bits, value)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:279:9: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m        step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:281:9: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m        poke(c.io.enq.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:286:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.deq.ready, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:289:16: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m        while (peek(c.io.deq.valid) == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:290:11: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m          step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:293:9: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m        expect(c.io.deq.bits, value)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:295:28: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m        println("recv: " + peek(c.io.deq.bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:297:9: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m        step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:300:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.deq.ready, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:302:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:309:53: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mNote that 'isTrace' is not a parameter name of the invoked method.[0m
+[0m[[0m[31merror[0m] [0m[0m  class DummyUartTests(c: DummyUart) extends Tester(c, isTrace = false) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:310:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.enq.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:311:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.deq.ready, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:312:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.enq.ready, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:314:12: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    while (peek(c.io.deq.valid) == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:315:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:318:12: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    while (peek(c.io.deq.valid) == 1) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:319:27: too many arguments (2) for method println: (x: Any)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m      println("recv", peek(c.io.deq.bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:320:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:322:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.deq.ready, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:326:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.enq.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:329:7: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m      poke(c.io.enq.bits, b)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:330:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/Uart.scala:332:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.enq.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m54 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 20 s, completed Sep 27, 2021 12:14:06 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UART.UART_TEST, org.scalatest.tools.Framework$$anon$1@19291378, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(gcd.GCDSpec, org.scalatest.tools.Framework$$anon$1@19291378, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UART.adder_Test, org.scalatest.tools.Framework$$anon$1@19291378, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32madder_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Adder blackbox *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.transforms.BlackBoxNotFoundException: BlackBox '/adde.v' not found. Did you misspell it? Is it in src/{main,test}/resources?[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mnull[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGCDSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Gcd should calculate proper greatest common denominator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUART_TEST:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- UART_Final[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 8 seconds, 579 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	gcd.GCDSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UART.UART_TEST[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	UART.adder_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

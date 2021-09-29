@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/shahzaib/UART/chisel-quickstart/src/main/scala/UART/UART_CORE.scala:28:7: Generated class UART.UART_CORE differs only in case from UART.uart_core.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass UART_CORE extends Module{[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

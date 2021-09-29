@@ -1,0 +1,40 @@
+1621354757994:testOnly UART.UART_TEST -- -DwriteVcd=1
+1631528022261:testOnly UART.adder_Test -- -DwriteVcd=1
+1631510824283:test
+1631512468493:testOnly UART.adder_Test -- -DwriteVcd=1
+1631513617777:testOnly UART.adder_Test
+1631514100965:test
+1631514169947:testOnly UART.adder_Test -- -DwriteVcd=1
+1631514250933:test
+1631514331289:testOnly UART.adder_Test -- -DwriteVcd=1
+1631520109265:testOnly UART.UART_Test -- -DwriteVcd=1
+1631520150211:testOnly UART.UART_TEST -- -DwriteVcd=1
+1631520430464:testOnly UART.adder_Test -- -DwriteVcd=1
+1631520511181:testOnly UART.UART_TEST -- -DwriteVcd=1
+1631520572466:testOnly UART.adder_Test -- -DwriteVcd=1
+1631521042602:testOnly UART.UART_TEST -- -DwriteVcd=1
+1631521105851:testOnly UART.adder_Test -- -DwriteVcd=1
+1631599765814:testOnly UART.mytry_Test -- -DwriteVcd=1
+1631600306347:runMain mytrydriver
+1631600420584:runMain mytryDriver
+1631600683680:run
+1631601021826:testOnly UART.counter_Test
+1631601378484:testOnly UART.counter_Test -- -DwriteVcd=1
+1631601970742:testOnly UART.adder_Test -- -DwriteVcd=1
+1631602052299:testOnly UART.counter_Test -- -DwriteVcd=1
+1631606418155:testOnly UART.ALU_Test -- -DwriteVcd=1
+1632467814762:testOnly UART.UART_RX_TEST
+1632477936602:testOnly UART.UART_TEST
+1632478059186:testOnly UART.UART_TEST -- -DwriteVcd=1
+1632656999526:testOnly UART.MESAUARTTEST -- -DwriteVcd=1
+1632720891238:testOnly UART.UART_CORE_TEST -- -DwriteVcd=1
+1632723669121:testOnly UART.TestEchoSpec -- -DwriteVcd=1
+1632723802726:exit
+1632723827356:testOnly UART.TestEchoSpec -- -DwriteVcd=1
+1632725701428:testOnly UART.TestRx -- -DwriteVcd=1
+1632726242787:testOnly UART.UartLoopbackTests
+1632726754292:testOnly UART.TestRx -- -DwriteVcd=1
+1632726767426:exit
+1632726826942:testOnly UART.UartLoopbackTests
+1632815440867:testOnly UART.UART_CORE_TEST -- -DwriteVcd=1
+1632916354964:exit

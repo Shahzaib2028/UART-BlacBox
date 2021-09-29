@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.counter_Test -- -DwriteVcd=1, Some(01ff8b66-50a5-4563-9d88-77138f4878c6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcounter_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- counter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chisel3.internal.ChiselException: Error: No implicit clock.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.throwException$.apply(Error.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$forcedClock$1(Builder.scala:533)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Option.getOrElse(Option.scala:189)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.forcedClock(Builder.scala:533)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.RegInit$.apply(Reg.scala:174)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.RegInit$.apply(Reg.scala:192)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at UART.counterB$$anon$1.$anonfun$out$1(counter.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.plugin.package$.autoNameRecursively(package.scala:52)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at UART.counterB$$anon$1.<init>(counter.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at UART.counterB.$anonfun$io$2(counter.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 503 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	UART.counter_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 18 s, completed Sep 14, 2021 12:04:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

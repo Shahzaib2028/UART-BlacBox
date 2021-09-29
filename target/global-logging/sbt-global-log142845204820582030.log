@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.ALU_Test -- -DwriteVcd=1, Some(000c5f6d-8631-4d76-b167-2a0b3b603241), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/ALU.scala:14:27: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (range: chisel3.internal.firrtl.IntervalRange)chisel3.UInt <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (width: chisel3.internal.firrtl.Width)chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool)[0m
+[0m[[0m[31merror[0m] [0m[0m    val CarryOut = Output(UInt(Bool()))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/main/scala/UART/ALU.scala:25:27: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (range: chisel3.internal.firrtl.IntervalRange)chisel3.UInt <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (width: chisel3.internal.firrtl.Width)chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool)[0m
+[0m[[0m[31merror[0m] [0m[0m    val CarryOut = Output(UInt(Bool()))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Sep 14, 2021 1:00:19 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.UART_TEST -- -DwriteVcd=1, Some(e414da4c-bd30-4da0-9f15-cae4668adb08), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UART_TEST.scala:15:29: not found: value clock[0m
+[0m[[0m[31merror[0m] [0m[0m        val clkk = WireInit(clock.asUInt()(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UART_TEST.scala:16:29: not found: value reset[0m
+[0m[[0m[31merror[0m] [0m[0m        val rstt = WireInit(reset.asUInt()(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UART_TEST.scala:18:14: value clk is not a member of chisel3.Bundle{val rx: chisel3.Bool; val transmit: chisel3.Bool; val tx_byte: chisel3.UInt; val tx: chisel3.Bool; val received: chisel3.Bool; val rx_byte: chisel3.UInt; val is_receiving: chisel3.Bool; val is_transmitting: chisel3.Bool; val recv_error: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m        c.io.clk.poke(clkk)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UART_TEST.scala:19:14: value rst is not a member of chisel3.Bundle{val rx: chisel3.Bool; val transmit: chisel3.Bool; val tx_byte: chisel3.UInt; val tx: chisel3.Bool; val received: chisel3.Bool; val rx_byte: chisel3.UInt; val is_receiving: chisel3.Bool; val is_transmitting: chisel3.Bool; val recv_error: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m        c.io.rst.poke(rstt)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Sep 25, 2021 8:14:29 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

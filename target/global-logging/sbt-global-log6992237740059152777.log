@@ -1,0 +1,360 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly UART.TestRx -- -DwriteVcd=1, Some(90ff447e-a01b-4fce-aec7-4d055942115f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:5:37: Symbol 'type chisel3.experimental.MultiIOModule' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'type chisel3.iotesters.PeekPokeTester.T'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type MultiIOModule is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'PeekPokeTester.class' was compiled against an incompatible version of chisel3.experimental.[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestTX(dut: BufferTx) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:5:52: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : BufferTx[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestTX(dut: BufferTx) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:6:5: Symbol 'type chisel3.package.Bundle' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'value chisel3.iotesters.PeekPokeTester.signal'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Bundle is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'PeekPokeTester.class' was compiled against an incompatible version of chisel3.package.[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.data, 0x55)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:7:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:9:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:11:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:13:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.data, 0x33)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:14:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:16:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:18:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.data, 0xAA)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:19:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:21:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:23:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:25:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.data, 0x33)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:26:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:28:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.Bool, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.channel.valid, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:43:39: inferred type arguments [Sender] do not conform to class PeekPokeTester's type parameter bounds [+T <: chisel3.experimental.MultiIOModule][0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestSender(dut: Sender) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:43:54: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Sender[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestSender(dut: Sender) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:61:33: inferred type arguments [Echo] do not conform to class PeekPokeTester's type parameter bounds [+T <: chisel3.experimental.MultiIOModule][0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestRx(dut: Echo) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:61:48: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Echo[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestRx(dut: Echo) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:62:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:64:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:66:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,0) //1[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:68:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,1) //2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:70:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,0) //3[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:72:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,1) //4[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:74:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,1) //5[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:76:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,1) //6[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:78:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,0) //7[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:80:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,0) //8[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:82:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,1) //S1[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:84:5: overloaded method value poke with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.core.Aggregate,value: IndexedSeq[BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bundle,map: Map[String,BigInt])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (signal: chisel3.Bits,value: BigInt)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: Int)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (path: String,value: BigInt)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.rxd,1) //S2[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:99:5: Symbol 'term chisel3.package.experimental' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'type chisel3.iotesters.Driver.T'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that term experimental is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Driver.class' was compiled against an incompatible version of chisel3.package.[0m
+[0m[[0m[31merror[0m] [0m[0m    Driver.execute([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:99:12: inferred type arguments [Echo] do not conform to method execute's type parameter bounds [T <: chisel3.experimental.MultiIOModule][0m
+[0m[[0m[31merror[0m] [0m[0m    Driver.execute([0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shahzaib/Desktop/Shahzaib/UART/chisel-quickstart/src/test/scala/UART/UARTTest.scala:101:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : () => Echo[0m
+[0m[[0m[31merror[0m] [0m[0m required: () => T[0m
+[0m[[0m[31merror[0m] [0m[0m      () => new Echo(50*1000*1000,115200*10)) {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m35 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Sep 27, 2021 11:55:03 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
